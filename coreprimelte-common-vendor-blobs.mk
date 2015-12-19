@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/samsung/coreprimelte-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -31,8 +32,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/coreprimelte-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+    vendor/samsung/coreprimelte-common/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/coreprimelte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/coreprimelte-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
@@ -89,6 +92,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libawb_algo_front.so:system/lib/libawb_algo_front.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+    vendor/samsung/coreprimelte-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/coreprimelte-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -108,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/keystore.msm8916.so:system/lib/hw/keystore.msm8916.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
@@ -121,6 +131,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/copybit.msm8916.so:system/lib/hw/copybit.msm8916.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/gralloc.msm8916.so:system/lib/hw/gralloc.msm8916.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/hwcomposer.msm8916.so:system/lib/hw/hwcomposer.msm8916.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/memtrack.msm8916.so:system/lib/hw/memtrack.msm8916.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -146,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/samsung/coreprimelte-common/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -153,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -206,14 +222,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/samsung/coreprimelte-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/coreprimelte-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+    vendor/samsung/coreprimelte-common/proprietary/bin/usbhub:system/bin/usbhub \
+    vendor/samsung/coreprimelte-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/samsung/coreprimelte-common/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/samsung/coreprimelte-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    vendor/samsung/coreprimelte-common/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/samsung/coreprimelte-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/coreprimelte-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/samsung/coreprimelte-common/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/lib_SamsungRec_V03010.so:system/lib/lib_SamsungRec_V03010.so \
