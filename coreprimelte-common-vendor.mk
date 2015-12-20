@@ -18,6 +18,9 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/coreprimelte-common/overlay
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService
 
