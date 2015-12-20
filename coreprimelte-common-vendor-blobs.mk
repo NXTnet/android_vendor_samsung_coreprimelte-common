@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/bin/rtccd3:system/bin/rtccd3 \
     vendor/samsung/coreprimelte-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/samsung/coreprimelte-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/samsung/coreprimelte-common/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/coreprimelte-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/coreprimelte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
